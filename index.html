@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login">
+        <div class="form my-5 mx-auto">
+            <div>
+                <h1>Smart Login System</h1> 
+            </div>
+            <div class="info d-flex flex-column p-3">
+                <input id="mailOfLogin" name="mail-login" class="form-control" type="email" placeholder="Enter your Email">
+                <input id="passOfLogin" name="pass-login" class="form-control" type="password" placeholder="Enter your password">
+            </div>
+            <div id="corectMail" style="color: red;" class="justify-content-center d-none">
+                <p>incorect email</p>
+            </div>
+            <div id="corectPass" style="color: red;" class="justify-content-center d-none">
+                <p>incorect Password</p>
+            </div>
+
+            <div id="corect" style="color: red;" class="justify-content-center d-none">
+                <p>incorect email and password</p>
+            </div>
+            
+            <div class="btn w-100">
+                <button onclick="login()" class="btn btn-outline-info w-100 my-3">Login</button>
+            </div>
+            <div class=" dont text-center py-3">
+                <p>Don’t have an account?<a href="signup.html"> Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: #24353F;
+}
+.navbar{
+    font-family: "Titillium Web", sans-serif;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.home{
+    color:  #17A2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.home .welcome{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 50px;
+}
